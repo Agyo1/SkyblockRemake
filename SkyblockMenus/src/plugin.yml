@@ -1,0 +1,7 @@
+author: agyo
+api-version: 1.14
+version: 1.0
+main: com.agyo.skyblockmenus.Main
+name: SkyblockMenus
+commands:
+  item:
