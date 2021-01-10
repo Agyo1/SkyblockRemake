@@ -17,7 +17,8 @@ import java.net.http.WebSocket;
 public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
-        getCommand("item").setExecutor(new itemCommand());
+	Bukkit.getPluginManager().registerEvents((new EventHandlerBase()), this);
+        getCommand("item").setExecutor(new ItemCommand());
         getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Skyblock Menus has been enabled!");
     }
     @Override
