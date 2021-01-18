@@ -1,4 +1,4 @@
-package com.agyo.skyblockmenus;
+package com.agyo.skyblockitems;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
