@@ -1,0 +1,6 @@
+name: SkyblockItems
+main: com.agyo.SkyblockItems.SBIMain
+version: 1.0
+commands:
+  item:
+   description: A command that lets you access all of the Skyblock Items.
