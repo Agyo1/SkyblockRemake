@@ -1,7 +1,7 @@
+name: ItemPlugin
 author: agyo
-api-version: 1.14
 version: 1.0
-main: com.agyo.skyblockmenus.Main
-name: SkyblockMenus
+main: com.agyo.skyblockitems.Main
 commands:
   item:
+    description: A command that opens the item inventory.
